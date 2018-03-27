@@ -39,6 +39,8 @@ Gateway is required even if the MySQL database is hosted in an Azure IaaS virtua
 > [!NOTE]
 > See [Troubleshoot gateway issues](data-factory-data-management-gateway.md#troubleshooting-gateway-issues) for tips on troubleshooting connection/gateway related issues.
 
+If you want to connect with Azure Database for MySQL, please use MySQL connector in V2.
+
 ## Supported versions and installation
 For Data Management Gateway to connect to the MySQL Database, you need to install the [MySQL Connector/Net for Microsoft Windows](https://dev.mysql.com/downloads/connector/net/) (version 6.6.5 or above) on the same system as the Data Management Gateway. This 32 bit driver is compatible with 64 bit Data Management Gateway. MySQL version 5.1 and above is supported.
 
